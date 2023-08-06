@@ -1,0 +1,79 @@
+{% extends 'layout.html'%}
+
+{% load static %}
+
+
+{% block body%}
+<div class="container">
+  <div class="row align-items-start">
+    <div class="col">
+        <img src= "{% static 'images/FINANCE0.png'%}" alt="Financial Modeling" width="70%">
+        <br><br>
+        <p class="finance"> <h3><b>Financial Modeling</b></h3>
+            <br>
+            Building Microsoft Excel models, that forecasts a business’s financial performance into the future.
+            The forecast is typically based on the company’s
+            historical performance and assumptions about the future, and requires preparing an income statement,
+            balance sheet, cash flow statement, and supporting schedules
+            <br>
+
+        <br>
+        <p>
+            Financial models are used to make decisions about:
+            <ul class="list-group">
+        <li> Raising capital (debt and/or equity)</li>
+        <li>Making acquisitions (businesses and/or assets)</li>
+        <li>Budgeting and forecasting (planning for the years</li>
+         <li>Valuing a business</li>
+            </ul>
+
+
+
+    </div>
+    <div class="col">
+        <img src="{% static 'images/DATA_PHOTOS01.png'%}" alt="Credit Analysis" width="70%">
+         <br><br>
+
+        <p class="CA"> <h3><b>Credit Analysis</b></h3>
+            <br>
+            Assessing the creditworthiness of an individual or company to determine the likelihood that they will honor
+            their financial obligations. I evaluate a borrower’s past financial and credit history to
+            determine their financial health and their ability to repay credit advanced to them by a lender.
+        <br><br>
+
+        <p>
+            Credit Analysis involves:
+            <ul class="list-group">
+  <li>Evaluating Credit Risk</li>
+  <li>Assessing Credit limits for existing customers</li>
+  <li>Analyzing Financial Data</li>
+        </ul>
+
+
+    </div>
+    <div class="col">
+      <img src="{% static 'images/FINANCE08.png'%}" alt="Financial Reports Analysis" width="60%">
+        <br><br>
+        <p class="FRA"><h3><b>Financial Report Analysis</b></h3>
+            <br>
+            Involves in gathering data, organizing information, analyzing historical results, making forecasts
+            and projections, making recommendations, and generating Excel models, presentations, and reports.
+
+        <br><br>
+        <p>
+            Financial Report Analysis involves:
+            <ul class="list-group">
+        <li>Gather Data and Information</li>
+        <li>Organize information</li>
+        <li>Analyzing Financial Data</li>
+        <li>Making Forecasts and Projections</li>
+            </ul>
+
+
+    </div>
+  </div>
+
+
+</div>
+
+{% endblock %}
